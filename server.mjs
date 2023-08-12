@@ -21,5 +21,5 @@ app.get('/profile', (req, res) => {
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
-  console.log(`Example server listening on port ${port}`)
+  console.log(`Example server listening on port ${PORT}`)
 })
